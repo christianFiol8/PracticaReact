@@ -1,6 +1,11 @@
+import Header from "./components/header.tsx";
+
 function App(){
   return(
-    <h1>Mi primer web por componentes</h1>
+    <>
+      <Header />
+      <h1>Hello World</h1>
+    </>
   )
 }
 
